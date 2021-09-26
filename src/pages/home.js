@@ -1,14 +1,14 @@
 import React from 'react'
 import Navbar from '../components/navbar'
 import HeroSlider from '../components/heroSlider'
-import ProductsPage from '../components/productsPage'
+import CategoryPage from '../components/categoryPage'
 
 const Home = () => {
     return (
         <div>
             <Navbar />
             <HeroSlider />
-            <ProductsPage />
+            <CategoryPage />
         </div>
     )
 }
