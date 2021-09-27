@@ -1,5 +1,11 @@
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
     .hero {
-      display: none !important;
+      height: 400px !important;
+    }
+  }
+
+  @media only screen and (max-width: 428px) {
+    .hero {
+      height: 250 !important;
     }
   }
