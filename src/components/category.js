@@ -8,7 +8,7 @@ const Category = ({ categoryId, categoryName, categoryImageUrl }) => {
   const catUrl = categoryImageUrl;
   return (
     <div className="card bg-white rounded shadow" style={{cursor:"pointer"}}>
-        <Link to={`products/${catId}`} style={{ textDecoration: 'none' }}>
+        <Link to={{pathname:'/products',selectedCat: {cat:{catId}}}} style={{ textDecoration: 'none' }}>
       <div className="card-body d-flex justify-content-center">
         <img src={catUrl} width="60px" alt="" />
       </div>
