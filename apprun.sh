@@ -2,5 +2,6 @@
 #!/bin/bash
 cd /home/realbuy
 npm run build
-cp -r build/* /var/www/bookshelf
+mkdir /var/www/realbuy
+cp -r build/* /var/www/realbuy
 systemctl restart nginx
