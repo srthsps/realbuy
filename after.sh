@@ -1,4 +1,4 @@
 
 #!/bin/bash
-cd /home/realbuy
+cd /home/ubuntu/realbuy
 npm run build
