@@ -20,6 +20,6 @@ jobs:
         run: |
           aws deploy create-deployment \
             --application-name realbuy \
-            --deployment-group-name development_gropup \
+            --deployment-group-name deployment_gropup \
             --deployment-config-name CodeDeployDefault.OneAtATime \
             --github-location repository=${{ github.repository }},commitId=${{ github.sha }}
